@@ -1,0 +1,16 @@
+{
+  "name": "rha-node-statepcs-28",
+  "version": "1.0.0",
+  "description": "RHA State PCS Intelligence – Vacancy & Quota Metrics Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "pcs", "uppsc", "bpsc", "state", "gateway"],
+  "author": "omnislegacy",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
